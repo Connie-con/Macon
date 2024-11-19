@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Non-Profit Organization</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="ABOUTUSSTYLE.CSS">
+    <script src="SEARCH.JS" defer></script> 
+</head>
+<body>
+    
+    <nav class="navbar">  
+        <ul>    
+            <li><a href="aboutusindex.html">About Us</a></li>
+            <li><a href="getinvolvedindex.html">Get Involved</a></li>
+            <li><a href="CONTACTINDEX.HTML">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+            <form onsubmit="return searchFunction(event);">
+                <input type="text" id="searchInput" name="query" placeholder="Search..." aria-label="Search" onfocus="showSuggestions()" onblur="hideSuggestions()">
+                <div id="suggestions" class="suggestions"></div> <!-- Suggestions dropdown -->
+            </form>
+        </div>
+    </nav>
+
+    <main>
+        <section class="definition">
+            <h2>NON PROFIT</h2>
+            <p>
+                A non-profit organization is like a warm hug for the community. It is a special kind of group that exists not to make money, but to make a difference in people's lives. Imagine a team of caring individuals coming together with a shared mission to help others, whether it's providing food to those in need, offering education to children, or protecting the environment. 
+            </p>
+            <p>
+                These organizations are driven by compassion and a desire to create positive change. They rely on the generosity of kind-hearted people who donate their time, money, or resources to support their cause. The beauty of a non-profit is that every dollar and every effort goes directly towards making the world a better place, rather than into the pockets of owners.
+            </p>
+            <p>
+                Non-profits often wear many hats; they can be local shelters, community health clinics, or even groups that advocate for social justice. They bring hope and support to those who need it most, reminding us all of the power of kindness and community spirit. In essence, non-profit organizations are the heart of our society, working tirelessly to uplift others and spread love where it's needed most.
+            </p>
+        </section>
+
+        <section class="about-us">
+            <h2>About Us</h2>
+            <div class="grid-container">
+                <a href="treeindex.html" class="grid-item">
+                    <img src="tree.jfif" alt="Our Mission" />
+                </a>
+                <a href="beachindex.html" class="grid-item">
+                    <img src="beach.jfif" alt="Our Vision" />
+                </a>
+                <a href="pwdindex.html" class="grid-item">
+                    <img src="pwd.jfif" alt="Our Values" />
+                </a>
+                <a href="strayindex.html" class="grid-item">
+                    <img src="stray.jfif" alt="Our History" />
+                </a>
+                <a href="studentindex.html" class="grid-item">
+                    <img src="singleparent.jfif" alt="Meet Our Team" />
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Privacy Policy | Terms of Service | FAQs</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
