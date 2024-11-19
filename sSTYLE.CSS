@@ -1,0 +1,143 @@
+      .suggestions {
+            border: 1px solid #ccc;
+            display: none; /* Hidden by default */
+            position: absolute;
+            background-color: white;
+            z-index: 1000;
+            width: calc(100% - 20px); /* Adjust width as needed */
+        }
+
+        .suggestion-item {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .suggestion-item:hover {
+            background-color: #f0f0f0; /* Highlight on hover */
+        }
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: #4CAF50; /* Green background */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="TREEPLANTING"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.search-container button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background: #fff;
+    color: #4CAF50;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background: #ddd; /* Light gray on hover */
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.definition, .about-us {
+    margin-bottom: 30px;
+}
+
+.definition h2, .about-us h2 {
+    color: #4CAF50; /* Green color for section headings */
+    margin-bottom: 15px;
+}
+
+.definition p {
+    margin-bottom: 15px;
+}
+
+/* Grid Container Styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px; /* Space between grid items */
+}
+
+.grid-item {
+    text-align: center;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px;
+    overflow: hidden; /* To round the corners of images */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.grid-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.grid-item img {
+    width: 100%; /* Responsive images */
+    height: auto;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333; /* Dark background */
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
